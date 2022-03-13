@@ -1,7 +1,9 @@
 from random import randint
 
-# Player Board (hidden)
+# Define two boards
+# HIDDEN_BOARD that computer has placed
 HIDDEN_BOARD = [[' '] * 8 for x in range(8)]
+# SHOWN_BOARD that shows player guess
 SHOWN_BOARD = [[' '] * 8 for i in range(8)]
     
 
@@ -42,7 +44,7 @@ def locate_ships():
     # Player guesses ship location
     while True:
         try: 
-            row = input("Enter the row of the ship between 1 and 8: \n")
+            row = input("Enter the row guess between 1 and 8: \n")
             if row in '12345678':
                 row = int(row) - 1
                 break
@@ -50,11 +52,11 @@ def locate_ships():
             print('Error, please enter a valid number between 1 and 8')
     while True:
         try: 
-            column = input("Enter the column of the ship between A and H: \n").upper()
+            column = input("Enter the column guess between A and H: \n").upper()
             if column in 'ABCDEFGH':
                 column = letters_to_numbers[column]
                 break
-        except KeyError:
+        except ValueError:
             print('Error, please enter a valid letter between A-H')
     return row, column
 
