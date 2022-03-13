@@ -40,11 +40,27 @@ ___
 
 # Features
 
+*Start of Game*
+
+Displays Board and Input Fields
+
 ![Welcome](images/welcome_screenshot.png)
+
+*If Missed A Shot*
+
+Displays MISS and returns how many turns are left to guess
 
 ![Missed Shot](images/missed_shot_screenshot.png)
 
+*Guessed Already*
+
+Displays Error if user guessed in that space already
+
 ![Guessed Already](images/guessed_already_screenshot.png)
+
+*Game Over*
+
+Displays Game Over showing the board that the computer generated
 
 ![Game Over](images/game_over_turns_screenshot.png)
 
