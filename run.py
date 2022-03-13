@@ -5,7 +5,6 @@ from random import randint
 HIDDEN_BOARD = [[' '] * 8 for x in range(8)]
 # SHOWN_BOARD that shows player guess
 SHOWN_BOARD = [[' '] * 8 for i in range(8)]
-    
 
 # Convert letters to numbers
 letters_to_numbers = {

@@ -40,3 +40,21 @@ ___
 
 # Features
 
+![Welcome](images/welcome_screenshot.png)
+
+![Missed Shot](images/missed_shot_screenshot.png)
+
+![Guessed Already](images/guessed_already_screenshot.png)
+
+![Game Over](images/game_over_turns_screenshot.png)
+
+# Testing
+
+[Pep8](http://pep8online.com/)
+
+![Pep8 Testing](images/testing_pep8.png)
+
+[ExtendsClass](https://extendsclass.com/python-tester.html)
+
+![ExtendsClass Testing](images/testing_codechecker.png)
+
