@@ -50,11 +50,38 @@ ___
 
 # Testing
 
+After creating the board and the function for the user to guess. I constantly played through the game ensuring that all error messages were working with each further addition and change.
+
+One major addition that I almost overlooked was the *try* and *except* function that stops empty inputs being valid or crashing the game.
+
 [Pep8](http://pep8online.com/)
+
+Using Pep8, I pasted the finished code that yeilded minor warnings that some I was able to fix and one error that I was not but the app still runs smoothly.
 
 ![Pep8 Testing](images/testing_pep8.png)
 
 [ExtendsClass](https://extendsclass.com/python-tester.html)
 
+ExtendsClass showed no errors.
+
 ![ExtendsClass Testing](images/testing_codechecker.png)
 
+# Future Development
+
+1. Add ability for user to create board and place ships and computer to guess.
+
+2. Increase size of battleships so vary in sizes and allow for computer to use tactics to sink player ships.
+
+# Deployment
+
+**GitHub**
+
+The app has been deployed to GitHub and a link to the page can be found here: [Python-Battleships - GitHub](https://github.com/mattm1346/Python-Battleships)
+
+**Heroku**
+
+The app has been deployed to Heroku and a link to the page can be found here: [Python-Battleships - Heroku](https://dashboard.heroku.com/apps/python-battleships)
+
+*note - no secret key is needed*
+
+![Final Preview of app](images/final_preview.png)
